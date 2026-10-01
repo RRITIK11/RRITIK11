@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/rritik11" target="blank"><img src="https://img.shields.io/twitter/follow/rritik11?logo=twitter&style=for-the-badge" alt="rritik11" /></a> </p>
 
-- 🔭 I’m currently working on [Algo Galaxy](https://oj.algogalaxy.in)
+- 🔭 I’m currently working on [Algo Galaxy](https://algogalaxy.co.in)
 
 - 🌱 I’m currently learning **Next.js, Docker, Kubernetes, and advanced TypeScript.**
 
