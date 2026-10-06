@@ -7,7 +7,7 @@
 //
 // Edit the CONTENT block below and re-run. No dependencies beyond Node 18+.
 
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, unlinkSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -80,38 +80,82 @@ const EXPERIENCE = {
   ],
 };
 
+// Status as of the date below. Kinds: 'done' (green), 'partial' (amber), 'paused' (grey).
+const STATUS_DATE = 'Oct 2026';
+
+const PROJECTS_HEADER = {
+  eyebrow: 'PROJECTS',
+  title: 'Built, and being built.',
+  sub: `Every public repo, with an honest status as of ${STATUS_DATE}.`,
+};
+
+// Only claims visible in the public repo. If you push the sandbox / Redis code,
+// add those lines back here (and to SKILLS) so the "Source" link backs them up.
 const PROJECTS = [
   {
     file: 'project-algogalaxy',
-    tag: 'LIVE  ·  ALGOGALAXY.CO.IN',
+    tag: 'ONLINE JUDGE  ·  V1 COMPLETE',
     title: 'AlgoGalaxy',
-    tagline: 'An online judge that runs untrusted code safely.',
+    tagline: 'An online judge for competitive programming, built from scratch.',
     features: [
-      'Process-isolated sandboxes: Linux namespaces and per-submission resource limits',
-      'Redis token-bucket rate limiting and result caching',
-      'Admin, Moderator and User roles with moderated problem contributions',
-      'Dockerized behind Nginx on AWS EC2',
+      'Run and submit C++, Java, Python and JavaScript against test cases, with a verdict per case',
+      'Email-verified signup and JWT sessions in httpOnly cookies',
+      'Community problem contributions reviewed by moderators; admin dashboard for users and problems',
+      'Zod-validated API routes on Next.js 14 and MongoDB, containerized with Docker',
     ],
     note: 'Began as my AlgoUniversity (YC-backed) externship capstone, 2024.',
-    chips: ['Next.js', 'Node.js', 'MongoDB', 'Redis', 'Docker', 'Nginx', 'AWS'],
-    cta: 'Visit algogalaxy.co.in ›',
-  },
-  {
-    file: 'project-videotube',
-    tag: 'BACKEND  ·  REST API',
-    title: 'VideoTube',
-    tagline: 'The backend for a YouTube-like video platform.',
-    features: [
-      'User authentication with hashed passwords',
-      'Video upload and comments',
-      'Channel subscriptions',
-      'Express.js and MongoDB with Mongoose models',
-    ],
-    note: 'My first major backend project, 2024.',
-    chips: ['Node.js', 'Express', 'MongoDB', 'Mongoose'],
-    cta: 'View source ›',
+    chips: ['Next.js 14', 'TypeScript', 'MongoDB', 'Zod', 'Docker', 'AWS EC2'],
+    cta: 'algogalaxy.co.in ›',
   },
 ];
+
+const MORE_PROJECTS = [
+  {
+    file: 'more-eventsnap', name: 'EventSnap', status: ['Paused', 'paused'],
+    desc: 'Event photo sharing that finds your photos by face. Done: auth, Postgres + pgvector schema, events, invite links and QR join. Face matching not built yet.',
+    stack: 'Next.js 15 · Postgres + pgvector · Redis · Python worker', cta: 'Source ›',
+  },
+  {
+    file: 'more-videotube', name: 'VideoTube', status: ['In progress', 'partial'],
+    desc: 'Backend for a YouTube-like platform. Done: JWT auth with refresh tokens, Cloudinary uploads, channel stats and watch history via MongoDB aggregation. Video, comment and playlist endpoints are stubs.',
+    stack: 'Express · MongoDB · Cloudinary', cta: 'Source ›',
+  },
+  {
+    file: 'more-studynotion', name: 'StudyNotion', status: ['Backend only', 'partial'],
+    desc: 'Ed-tech platform backend: OTP signup, courses with sections, Razorpay payments, email templates and Cloudinary uploads. No frontend yet.',
+    stack: 'Express · MongoDB · Razorpay · Nodemailer', cta: 'Source ›',
+  },
+  {
+    file: 'more-gemini', name: 'Gemini Clone', status: ['Complete', 'done'],
+    desc: 'Chat interface for Google’s Gemini API with a recent-prompts sidebar and new-chat reset.',
+    stack: 'React · Vite · Gemini API', cta: 'Source ›',
+  },
+  {
+    file: 'more-timeless', name: 'Timeless Creations', status: ['Live · demo content', 'partial'],
+    desc: 'Furniture-studio website with animated testimonials, a card carousel and an image lens. Deployed on Vercel; the copy and projects are still placeholders.',
+    stack: 'Next.js 15 · Tailwind CSS · Framer Motion', cta: 'Live demo ›',
+  },
+  {
+    file: 'more-blog', name: 'Blog Website', status: ['Early stage', 'partial'],
+    desc: 'Blog app on Appwrite. Done: authentication service and database and storage config. Editor and pages not started.',
+    stack: 'React · Redux Toolkit · Appwrite', cta: 'Source ›',
+  },
+];
+
+const PRACTICE = {
+  title: 'Practice & learning.',
+  sub: 'Smaller apps I built while learning React, Next.js and vanilla JavaScript.',
+  rows: [
+    ['React exercises', 'Router, Context API, Redux Toolkit and a localStorage todo app', ['Learning log', 'paused']],
+    ['Context API blog', 'Paginated blog reader built on React Context', ['Complete', 'done']],
+    ['Random GIF generator', 'Random and tag-based GIFs from the Giphy API via a custom hook', ['Complete', 'done']],
+    ['RazorPay UI clone', 'Static landing-page clone in HTML and Tailwind CSS', ['Complete', 'done']],
+    ['Password generator', 'Length, character-set and strength options with copy to clipboard', ['Complete', 'done']],
+    ['Weather app', 'City weather lookup with the OpenWeather API', ['Almost done', 'partial']],
+    ['Music course landing page', 'Hero and featured-courses sections in Next.js 14', ['Incomplete', 'partial']],
+    ['CSS practice', 'Image gallery, parallax page and button hover effects', ['Practice', 'paused']],
+  ],
+};
 
 const SKILLS = {
   eyebrow: 'TECHNICAL SKILLS',
@@ -124,7 +168,7 @@ const SKILLS = {
     ['Automation', ['Playwright', 'Chrome extensions (MV3)', 'Codex', 'Claude Code']],
     ['Frontend', ['React', 'Next.js', 'Tailwind CSS', 'Vite']],
     ['Infra', ['Docker', 'Nginx', 'AWS (EC2, ECR)', 'Linux', 'Git']],
-    ['Systems I’ve built', ['Process sandboxing', 'Token-bucket rate limiting', 'Result caching', 'RBAC', 'Multi-process orchestration', 'ZIP / CRC-32 / OOXML writer'], true],
+    ['Systems I’ve built', ['Online judge (compile, run, verdicts)', 'RBAC & moderation workflow', 'Multi-process orchestration', 'ZIP / CRC-32 / OOXML writer'], true],
   ],
 };
 
@@ -141,12 +185,14 @@ const THEMES = {
     card: '#f5f5f7', chip: '#e8e8ed', chipText: '#1d1d1f', line: '#d2d2d7',
     hiChip: '#e6f0fb', hiChipText: '#0058b0',
     grad: ['#0071e3', '#8e44e8', '#e5397a'], glow: ['#0071e3', '#e5397a'], glowOpacity: 0.14,
+    status: { done: ['#e3f3e7', '#17703a'], partial: ['#fdf0dc', '#8f5300'], paused: ['#e8e8ed', '#55555a'] },
   },
   dark: {
     text: '#f5f5f7', sub: '#a1a1a6', accent: '#2997ff',
     card: '#1c1c1e', chip: '#2c2c2e', chipText: '#f5f5f7', line: '#38383a',
     hiChip: '#0b2a4a', hiChipText: '#6cb6ff',
     grad: ['#2997ff', '#bf5af2', '#ff375f'], glow: ['#2997ff', '#ff375f'], glowOpacity: 0.24,
+    status: { done: ['#10301c', '#4ac26b'], partial: ['#3a2a0c', '#e3b341'], paused: ['#2c2c2e', '#a1a1a6'] },
   },
 };
 
@@ -367,6 +413,71 @@ function projects(t) {
   return PROJECTS.map((p) => [p.file, project(p, t)]);
 }
 
+function statusPill(x, y, [label, kind], t, o = {}) {
+  const { size = 15, h = 32, alignRight = false } = o;
+  const [bg, fg] = t.status[kind];
+  const w = measure(label, size, 600) * SAFETY + 28 + 14;
+  const px = alignRight ? x - w : x;
+  const svg = `<rect x="${r(px)}" y="${r(y)}" width="${r(w)}" height="${h}" rx="${h / 2}" fill="${bg}"/>` +
+    `<circle cx="${r(px + 16)}" cy="${r(y + h / 2)}" r="4" fill="${fg}"/>` +
+    text(px + 28, y + h / 2 + size * 0.36, label, { size, weight: 600, fill: fg });
+  return { svg, w };
+}
+
+function projectsHeader(t) {
+  const W = 1200, H = 150;
+  const body = sectionHeader(PROJECTS_HEADER.eyebrow, PROJECTS_HEADER.title, t) +
+    text(4, 134, PROJECTS_HEADER.sub, { size: 21, fill: t.sub });
+  return svgDoc(W, H, `${PROJECTS_HEADER.title} ${PROJECTS_HEADER.sub}`, '', body);
+}
+
+// Two-up cards, each its own SVG so every card links to its repo. All share one height.
+function moreCards(t) {
+  const W = 588, pad = 40, inner = W - pad * 2;
+  const layouts = MORE_PROJECTS.map((p) => {
+    const descLines = wrap(p.desc, 20, 400, inner);
+    const stackLines = wrap(p.stack, 16, 500, inner);
+    const descEnd = 152 + (descLines.length - 1) * 30;
+    const stackY = descEnd + 40;
+    const stackEnd = stackY + (stackLines.length - 1) * 23;
+    return { descLines, stackLines, stackY, need: stackEnd + 30 + 18 + 36 };
+  });
+  return MORE_PROJECTS.map((p, i) => {
+    const L = layouts[i];
+    // Cards sit two per row in the README, so each pair shares a height.
+    const H = Math.max(L.need, layouts[i ^ 1]?.need ?? 0);
+    let b = `<rect x="0" y="0" width="${W}" height="${r(H)}" rx="28" fill="${t.card}"/><g class="a">`;
+    b += statusPill(pad, 36, p.status, t).svg;
+    b += text(pad, 114, p.name, { size: 32, weight: 700, ls: -0.8, fill: t.text, display: true });
+    b += L.descLines.map((line, j) => text(pad, 152 + j * 30, line, { size: 20, fill: t.sub })).join('');
+    b += L.stackLines.map((line, j) => text(pad, L.stackY + j * 23, line, { size: 16, weight: 500, fill: t.text })).join('');
+    b += text(pad, H - 36, p.cta, { size: 18, weight: 600, fill: t.accent });
+    b += `</g>`;
+    return [p.file, svgDoc(W, H, `${p.name} (${p.status[0]}): ${p.desc} ${p.stack}.`, '', b)];
+  });
+}
+
+function practice(t) {
+  const W = 1200, top = 108, rowH = 62, descX = 330;
+  const pillW = Math.max(...PRACTICE.rows.map(([, , s]) => statusPill(0, 0, s, t).w));
+  let body = text(2, 40, PRACTICE.title, { size: 34, weight: 700, ls: -0.8, fill: t.text, display: true }) +
+    text(4, 78, PRACTICE.sub, { size: 19, fill: t.sub });
+  PRACTICE.rows.forEach(([name, desc, status], i) => {
+    const y = top + i * rowH;
+    if (measure(desc, 18) * SAFETY > W - descX - pillW - 24) console.warn(`  note: practice row "${name}" description may crowd its status pill`);
+    body += `<g class="a d${(i % 5) + 1}">`;
+    body += `<rect x="0" y="${y}" width="${W}" height="1" fill="${t.line}"/>`;
+    body += text(4, y + 38, name, { size: 19, weight: 600, fill: t.text });
+    body += text(descX, y + 38, desc, { size: 18, fill: t.sub });
+    body += statusPill(W, y + 15, status, t, { alignRight: true }).svg;
+    body += `</g>`;
+  });
+  const end = top + PRACTICE.rows.length * rowH;
+  body += `<rect x="0" y="${end}" width="${W}" height="1" fill="${t.line}"/>`;
+  const title = `${PRACTICE.title} ` + PRACTICE.rows.map(([n, d, s]) => `${n} (${s[0]}): ${d}`).join('. ') + '.';
+  return svgDoc(W, end + 4, title, '', body);
+}
+
 function skills(t) {
   const W = 1200, top = 128, labelW = 280, rowPad = 20;
   const chipW = W - labelW;
@@ -400,13 +511,18 @@ function contact(t) {
 /* ───────────────────────────── BUILD ───────────────────────────── */
 
 mkdirSync(OUT, { recursive: true });
+// Remove previously generated images so renamed or dropped sections don't linger.
+for (const f of readdirSync(OUT)) if (/-(light|dark)\.svg$/.test(f)) unlinkSync(join(OUT, f));
 const written = [];
 for (const [mode, t] of Object.entries(THEMES)) {
   const files = [
     ['hero', hero(t)],
     ['stats', stats(t)],
     ['experience', experience(t)],
+    ['projects-header', projectsHeader(t)],
     ...projects(t),
+    ...moreCards(t),
+    ['practice', practice(t)],
     ['skills', skills(t)],
     ['contact', contact(t)],
   ];
