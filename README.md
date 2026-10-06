@@ -1,39 +1,104 @@
-<h1 align="center">Hi 👋, I'm Ritik Sharma</h1>
-<h3 align="center">Passionate Full-Stack Developer | Competitive Programmer | ML/AI Enthusiast</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rritik11&label=Profile%20views&color=0e75b6&style=flat" alt="rritik11" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rritik11" alt="rritik11" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/rritik11" target="blank"><img src="https://img.shields.io/twitter/follow/rritik11?logo=twitter&style=for-the-badge" alt="rritik11" /></a> </p>
-
-- 🔭 I’m currently working on [Algo Galaxy](https://algogalaxy.co.in)
-
-- 🌱 I’m currently learning **Next.js, Docker, Kubernetes, and advanced TypeScript.**
-
-- 👯 I’m looking to collaborate on **Full Stack Projects**
-
-- 🤝 I’m looking for help with **DevOps & Cloud Projects**
-
-- 📫 How to reach me **pvt.ritik11@gmail.com**
-
-- ⚡ Fun fact **I believe "console.log" is the ultimate problem solver.**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/rritik11" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rritik11" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/rritik11" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rritik11" height="30" width="40" /></a>
-<a href="https://kaggle.com/rritik11" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="rritik11" height="30" width="40" /></a>
-<a href="https://instagram.com/_ritik_1109_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_ritik_1109_" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/ritik_1109" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="ritik_1109" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/rritik11" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="rritik11" height="30" width="40" /></a>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Ritik%20Sharma&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%E2%80%94%20Backend%20%26%20AI%20Applications&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Ritik Sharma — Software Engineer, Backend & AI Applications" />
 </p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://appwrite.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" alt="appwrite" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://www.framer.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://materializecss.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rritik11&show_icons=true&locale=en&layout=compact" alt="rritik11" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rritik11&show_icons=true&locale=en" alt="rritik11" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rritik11&" alt="rritik11" /></p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&pause=1200&color=2563EB&center=true&vCenter=true&width=620&lines=Node.js+%2B+TypeScript+backends;RAG+pipelines+%26+LLM+agents;Built+AlgoGalaxy%2C+a+sandboxed+online+judge" alt="Node.js + TypeScript backends · RAG pipelines & LLM agents · Built AlgoGalaxy, a sandboxed online judge" />
+</p>
+<p align="center">
+  <a href="mailto:sharmaritik5550@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://linkedin.com/in/rritik11"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://algogalaxy.co.in"><img src="https://img.shields.io/badge/AlgoGalaxy-Live-16A34A?style=for-the-badge" alt="AlgoGalaxy live site" /></a>
+  <a href="https://leetcode.com/rritik11"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="https://www.codechef.com/users/ritik_1109"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" /></a>
+</p>
+---
+ 
+## 👨‍💻 About me
+ 
+- 🔧 I build **backend services and LLM-powered tools**: Node.js/TypeScript APIs, RAG pipelines and browser-automation agents.
+- 🏢 Spent **1+ year at Oracle** (Jun 2025 – Oct 2026) building AI and automation tools for Oracle Fusion SaaS.
+- 🚀 Built and deployed **[AlgoGalaxy](https://algogalaxy.co.in)**, an online judge that runs untrusted code in sandboxes.
+## 🏢 Experience — Oracle
+ 
+| | What I built | Outcome |
+|:-:|---|---|
+| 🔍 | **Discovery Probe** — co-built per-pillar RAG text-to-SQL pipelines over a **4,000+ table** Fusion schema (table-aware chunking, embeddings, top-k retrieval) | **~2×** per-person query throughput · **~900** validated SQL queries |
+| 🤖 | **Browser-automation agent** — Codex plugin with **61** domain skills; the LLM only plans while a Node.js runtime of **6** process-isolated workers runs parallel Playwright lanes | Ran **7** scenarios end to end; paused the rollout after measuring LLM cost above manual execution |
+| 🎥 | **Manual Test Recorder** — Chrome/Edge extension (Manifest V3) that records UI workflows and exports Excel evidence via a zero-dependency XLSX writer built from the OOXML spec | Used by **~40** testers |
+ 
+<sub>Oracle code is internal, so it isn't on GitHub.</sub>
+ 
+## 🚀 Projects
+ 
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://algogalaxy.co.in">⚖️ AlgoGalaxy</a></h3>
+<p>Online judge for competitive programming, live at <a href="https://algogalaxy.co.in">algogalaxy.co.in</a>.</p>
+<ul>
+<li>Untrusted submissions run in process-isolated sandboxes (Linux namespaces, per-submission resource limits)</li>
+<li>Redis token-bucket rate limiting and result caching</li>
+<li>Admin / Moderator / User roles with moderated problem contributions</li>
+</ul>
+<img src="https://skillicons.dev/icons?i=nextjs,nodejs,mongodb,redis,docker,nginx,aws&theme=dark" height="34" alt="Next.js, Node.js, MongoDB, Redis, Docker, Nginx, AWS" />
+<p><a href="https://algogalaxy.co.in"><b>Live site</b></a> · <a href="https://github.com/RRITIK11/OJ-Project"><b>Code</b></a></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/RRITIK11/CodeNProject">🎬 VideoTube Backend</a></h3>
+<p>REST API backend for a YouTube-like video platform.</p>
+<ul>
+<li>User authentication with hashed passwords</li>
+<li>Video upload, comments and channel subscriptions</li>
+<li>Express.js with MongoDB and Mongoose models</li>
+</ul>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb&theme=dark" height="34" alt="Node.js, Express, MongoDB" />
+<p><a href="https://github.com/RRITIK11/CodeNProject"><b>Code</b></a></p>
+</td>
+</tr>
+</table>
+## 🛠️ Tech stack
+ 
+<table>
+<tr>
+<td><b>Languages</b></td>
+<td><img src="https://skillicons.dev/icons?i=ts,js,cpp,py&theme=dark" height="40" alt="TypeScript, JavaScript, C++, Python" /></td>
+</tr>
+<tr>
+<td><b>Backend</b></td>
+<td><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,redis&theme=dark" height="40" alt="Node.js, Express, FastAPI, Redis" /></td>
+</tr>
+<tr>
+<td><b>Frontend</b></td>
+<td><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" height="40" alt="React, Next.js, Tailwind CSS" /></td>
+</tr>
+<tr>
+<td><b>Data</b></td>
+<td><img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,prisma&theme=dark" height="40" alt="MongoDB, PostgreSQL, MySQL, Prisma" /> <img src="https://img.shields.io/badge/Oracle%20SQL%20%2F%20PL%2FSQL-C74634?style=for-the-badge" alt="Oracle SQL / PL/SQL" /></td>
+</tr>
+<tr>
+<td><b>Infra & tools</b></td>
+<td><img src="https://skillicons.dev/icons?i=docker,nginx,aws,linux,git&theme=dark" height="40" alt="Docker, Nginx, AWS, Linux, Git" /></td>
+</tr>
+<tr>
+<td><b>AI / LLM</b></td>
+<td>
+<img src="https://img.shields.io/badge/RAG-7C3AED?style=for-the-badge" alt="RAG" />
+<img src="https://img.shields.io/badge/Embeddings-2563EB?style=for-the-badge" alt="Embeddings" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgvector" />
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge" alt="Playwright" />
+<img src="https://img.shields.io/badge/Prompt%20Engineering-DB2777?style=for-the-badge" alt="Prompt engineering" />
+</td>
+</tr>
+</table>
+## 🏆 Problem solving
+ 
+<p>
+  <img src="https://img.shields.io/badge/DSA-1000%2B%20solved-0F172A?style=for-the-badge" alt="1000+ DSA problems solved" />
+  <a href="https://www.codechef.com/users/ritik_1109"><img src="https://img.shields.io/badge/CodeChef-3%E2%98%85-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef 3 star" /></a>
+  <img src="https://img.shields.io/badge/GeeksforGeeks-1788-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks rating 1788" />
+  <a href="https://leetcode.com/rritik11"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
+</p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=110&section=footer" width="100%" alt="" />
+</p>
